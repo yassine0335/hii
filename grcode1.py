@@ -10,7 +10,7 @@ from grcode2 import monday_friday
 from grcode2 import tuesday_friday
 from grcode2 import find_next_day,wednesday_saturday,first_thursday_of_next_month,thursday_sunday,be_weekly_thurs,wednesday_sunday,monday_thursday
 import os
-from keep_alive import keep_alive
+from Keep_alive import keep_alive
 keep_alive()
 
 bot = commands.Bot()
