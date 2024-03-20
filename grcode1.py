@@ -353,4 +353,4 @@ async def rustoria(ctx, max: int = None, x: int = None):
 
 
 
-bot.run('MTA4NDQwNjU3NzU5MjgwNzQ3OA.G8sU3v.EZLpCqGbW8e_c2eYXZmlYJiJqbi1-oje9rkHTs')
+bot.run('MTA4NDQwNjU3NzU5MjgwNzQ3OA.GjIKiw.9YOqOO8rddSDHxqzdsj22MWPs50fglM9J2uskY')
