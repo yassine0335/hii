@@ -9,7 +9,9 @@ from grcode2 import tuesday_Saturday,March22_7am,March18_6pm,March22_6pm
 from grcode2 import monday_friday
 from grcode2 import tuesday_friday
 from grcode2 import find_next_day,wednesday_saturday,first_thursday_of_next_month,thursday_sunday,be_weekly_thurs,wednesday_sunday,monday_thursday
-
+import os
+from keep_alive import keep_alive
+keep_alive()
 
 bot = commands.Bot()
 
@@ -353,4 +355,4 @@ async def rustoria(ctx, max: int = None, x: int = None):
 
 
 
-bot.run('MTA4NDQwNjU3NzU5MjgwNzQ3OA.GjIKiw.9YOqOO8rddSDHxqzdsj22MWPs50fglM9J2uskY')
+bot.run(token=os.environ.get('token'))
